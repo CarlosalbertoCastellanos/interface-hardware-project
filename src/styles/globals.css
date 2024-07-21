@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    /* Colors */
+    --primary-color: #FF5733;
+    --secondary-color: #333333;
+    --background-color: #FFFFFF;
+    --alternative-color: #F2F2F2;
+    --accent-color: #007BFF;
+    --text-color: #000000;
+
+    /* Fonts */
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    background-color: var(--background-color);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+button {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: var(--primary-font);
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* A darker shade of accent-color */
+}
+
+.header {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 10px 20px;
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    padding: 20px;
+    text-align: center;
+}
+
+[class*="col-"] {
+    grid-column: span 12;
+}
+
+@media (min-width: 576px) {
+    .col-sm-1 {
+        grid-column: span 1;
+    }
+
+    .col-sm-2 {
+        grid-column: span 2;
+    }
+
+    .col-sm-3 {
+        grid-column: span 3;
+    }
+
+    .col-sm-4 {
+        grid-column: span 4;
+    }
+
+    .col-sm-5 {
+        grid-column: span 5;
+    }
+
+    .col-sm-6 {
+        grid-column: span 6;
+    }
+
+    .col-sm-7 {
+        grid-column: span 7;
+    }
+
+    .col-sm-8 {
+        grid-column: span 8;
+    }
+
+    .col-sm-9 {
+        grid-column: span 9;
+    }
+
+    .col-sm-10 {
+        grid-column: span 10;
+    }
+
+    .col-sm-11 {
+        grid-column: span 11;
+    }
+
+    .col-sm-12 {
+        grid-column: span 12;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-1 {
+        grid-column: span 1;
+    }
+
+    .col-md-2 {
+        grid-column: span 2;
+    }
+
+    .col-md-3 {
+        grid-column: span 3;
+    }
+
+    .col-md-4 {
+        grid-column: span 4;
+    }
+
+    .col-md-5 {
+        grid-column: span 5;
+    }
+
+    .col-md-6 {
+        grid-column: span 6;
+    }
+
+    .col-md-7 {
+        grid-column: span 7;
+    }
+
+    .col-md-8 {
+        grid-column: span 8;
+    }
+
+    .col-md-9 {
+        grid-column: span 9;
+    }
+
+    .col-md-10 {
+        grid-column: span 10;
+    }
+
+    .col-md-11 {
+        grid-column: span 11;
+    }
+
+    .col-md-12 {
+        grid-column: span 12;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-1 {
+        grid-column: span 1;
+    }
+
+    .col-lg-2 {
+        grid-column: span 2;
+    }
+
+    .col-lg-3 {
+        grid-column: span 3;
+    }
+
+    .col-lg-4 {
+        grid-column: span 4;
+    }
+
+    .col-lg-5 {
+        grid-column: span 5;
+    }
+
+    .col-lg-6 {
+        grid-column: span 6;
+    }
+
+    .col-lg-7 {
+        grid-column: span 7;
+    }
+
+    .col-lg-8 {
+        grid-column: span 8;
+    }
+
+    .col-lg-9 {
+        grid-column: span 9;
+    }
+
+    .col-lg-10 {
+        grid-column: span 10;
+    }
+
+    .col-lg-11 {
+        grid-column: span 11;
+    }
+
+    .col-lg-12 {
+        grid-column: span 12;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl-1 {
+        grid-column: span 1;
+    }
+
+    .col-xl-2 {
+        grid-column: span 2;
+    }
+
+    .col-xl-3 {
+        grid-column: span 3;
+    }
+
+    .col-xl-4 {
+        grid-column: span 4;
+    }
+
+    .col-xl-5 {
+        grid-column: span 5;
+    }
+
+    .col-xl-6 {
+        grid-column: span 6;
+    }
+
+    .col-xl-7 {
+        grid-column: span 7;
+    }
+
+    .col-xl-8 {
+        grid-column: span 8;
+    }
+
+    .col-xl-9 {
+        grid-column: span 9;
+    }
+
+    .col-xl-10 {
+        grid-column: span 10;
+    }
+
+    .col-xl-11 {
+        grid-column: span 11;
+    }
+
+    .col-xl-12 {
+        grid-column: span 12;
+    }
+}

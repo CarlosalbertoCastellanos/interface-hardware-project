@@ -1,0 +1,17 @@
+.content-carousel {
+    position: absolute;
+    width: 100%;
+}
+
+.content-carousel__overlay {
+    position: absolute;
+    top: 21px;
+    /* Ajusta según sea necesario */
+    left: 20px;
+    /* Ajusta según sea necesario */
+    right: 20px;
+    /* Ajusta según sea necesario */
+    color: #fff;
+    /* Color del texto sobre la imagen */
+    z-index: 20;
+}
