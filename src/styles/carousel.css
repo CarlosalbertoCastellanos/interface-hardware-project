@@ -5,7 +5,8 @@
     position: relative;
     width: 100%;
     max-width: 100%;
-    height: 400px; /* Ajusta según sea necesario */
+    height: 400px;
+    /* Ajusta según sea necesario */
     margin: auto;
     overflow: hidden;
 }
@@ -19,7 +20,8 @@
 .carousel__image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor */
+    object-fit: cover;
+    /* Ajusta la imagen para que cubra el contenedor */
 }
 
 .carousel__button {
@@ -45,21 +47,4 @@
 
 .carousel__button:last-of-type {
     right: 0;
-}
-
-.carousel__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff; /* Color del texto sobre la imagen */
-    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
-    z-index: 20;
-    padding: 20px; /* Ajusta el espacio alrededor del contenido */
 }

@@ -7,13 +7,14 @@ export const ContentCarousel = () => {
   const images = [
     "/img/volqueta.jpg",
     "/img/minicargador.jpg",
+    "/img/arena-amarilla.jpg",
     // Agrega más imágenes según sea necesario
   ];
 
   return (
-    <div className="carousel">
+    <div className="content-carousel">
       <Carousel images={images} />
-      <div className="carousel__overlay">
+      <div className="carousel_overlay">
         <h1>Bienvenido a Ferretería El Porvenir</h1>
         <p>
           Encuentra todo lo que necesitas para tus proyectos de bricolaje y

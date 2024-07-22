@@ -36,8 +36,8 @@ export const Carousel = ({ images }) => {
           src={images[currentIndex]}
           alt={`Slide ${currentIndex}`}
           className="carousel__image"
-          width="100"
-          height="100"
+          layout="fill"
+          objectFit="cover"
         />
       </div>
       <button className="carousel__button" onClick={nextSlide}>
