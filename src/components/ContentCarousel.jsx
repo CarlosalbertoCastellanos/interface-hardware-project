@@ -8,6 +8,7 @@ export const ContentCarousel = () => {
     "/img/volqueta.jpg",
     "/img/minicargador.jpg",
     "/img/arena-amarilla.jpg",
+    "/img/argos.jpg",
     // Agrega más imágenes según sea necesario
   ];
 
