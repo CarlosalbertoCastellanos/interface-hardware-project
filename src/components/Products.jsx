@@ -1,7 +1,12 @@
 import React from "react";
 import { ProductCard } from "./ProductCard";
+<<<<<<< HEAD
 import "../styles/globals.css";
 import "../styles/Products.css";
+=======
+import "../styles/products.css";
+import "../styles/globals.css";
+>>>>>>> f2f983a8682826c550c79933304788ca0244588c
 
 export const Products = () => {
   return (

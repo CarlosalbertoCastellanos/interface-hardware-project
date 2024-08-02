@@ -38,9 +38,10 @@ h6 {
     color: var(--primary-color);
 }
 
-p{
+p {
     font-family: var(--secondary-font);
 }
+
 a {
     color: var(--secondary-color);
     text-decoration: none;
