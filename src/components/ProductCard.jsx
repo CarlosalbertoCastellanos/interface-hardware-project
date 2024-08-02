@@ -23,10 +23,8 @@ export const ProductCard = () => {
         <Image
           src="/img/construction_icono.png"
           alt="Martillo de Goma"
-          width={220}
-          height={229}
-          // width={300}
-          // height={300}
+          width={300}
+          height={300}
           layout="responsive"
         />
         <div className="productInfo">

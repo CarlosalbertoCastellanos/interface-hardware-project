@@ -46,17 +46,17 @@
     .productCardContainer {
         grid-template-columns: repeat(1fr);
     }
+}
 
-    @media (min-width: 768px) {
-        .productCardContainer {
-            grid-template-columns: repeat(2, 1fr);
+@media (min-width: 768px) {
+    .productCardContainer {
+        grid-template-columns: repeat(2, 1fr);
 
-        }
     }
+}
 
-    @media (min-width: 1200px) {
-        .productCardContainer {
-            grid-template-columns: repeat(2, 1fr);
-        }
+@media (min-width: 1200px) {
+    .productCardContainer {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
