@@ -1,0 +1,47 @@
+.aboutUsContainer {
+    padding: 90px;
+    text-align: center;
+    align-content: center;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.aboutUsText {
+    text-align: left;
+}
+
+.aboutUsText p {
+    margin-bottom: 20px;
+}
+
+.aboutUsText button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.aboutUsText button:hover {
+    background-color: #0056b3;
+}
+
+.aboutUsImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagePlaceholder {
+    width: 150px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
