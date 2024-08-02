@@ -1,16 +1,13 @@
 .productCardContainer {
-<<<<<<< HEAD
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-=======
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     justify-content: center;
     width: 100%;
->>>>>>> f2f983a8682826c550c79933304788ca0244588c
 }
 
 .productCard {
@@ -21,11 +18,8 @@
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
-<<<<<<< HEAD
     width: 200px;
 
-=======
->>>>>>> f2f983a8682826c550c79933304788ca0244588c
 }
 
 .productCard:hover {
@@ -47,20 +41,22 @@
     font-size: 1em;
 }
 
-<<<<<<< HEAD
+
 @media (min-width: 568px) {
     .productCardContainer {
         grid-template-columns: repeat(1fr);
-=======
-@media (min-width: 768px) {
-    .productCardContainer {
-        grid-template-columns: repeat(2, 1fr);
->>>>>>> f2f983a8682826c550c79933304788ca0244588c
     }
-}
 
-@media (min-width: 1200px) {
-    .productCardContainer {
-        grid-template-columns: repeat(2, 1fr);
+    @media (min-width: 768px) {
+        .productCardContainer {
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .productCardContainer {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 }
