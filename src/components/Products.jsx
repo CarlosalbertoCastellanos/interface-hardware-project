@@ -2,7 +2,6 @@ import React from "react";
 import { ProductCard } from "./ProductCard";
 import "../styles/globals.css";
 import "../styles/Products.css";
-import "../styles/products.css";
 import "../styles/globals.css";
 
 export const Products = () => {
